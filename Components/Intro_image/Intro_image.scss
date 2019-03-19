@@ -1,0 +1,15 @@
+.quiz_intro_img {
+  margin:5% 20% 3% 20%;
+  width:60%;
+  height: (1080/1920) *60vw;
+  @media (max-width: 600px){
+    width: 100%;
+    float: none;
+    height: (1080/1920) *100vw;
+  }
+  //@media (max-width: 400px){
+  //  width: 100%;
+  //  float: none;
+  //  height: (1080/1920) *100vw;
+  //}
+}
