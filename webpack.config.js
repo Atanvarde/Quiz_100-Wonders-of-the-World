@@ -1,9 +1,10 @@
 var path = require("path");
  
 module.exports = {
-  entry: "./js/app.jsx",
+  entry: ["whatwg-fetch","./js/app.jsx"],
   output: { filename: "out.js", path: path.resolve(__dirname, "js") },
   devtool: 'source-map',
+  devServer: {inline: true, contentBase: './', port: 3001},
   mode: "development", watch: true,
   module: {
     rules: [{

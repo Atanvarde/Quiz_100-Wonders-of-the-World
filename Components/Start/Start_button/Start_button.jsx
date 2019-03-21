@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Start_button.scss';
+import {Link} from 'react-router-dom';
 
 class Start_button extends React.Component {
     render() {
         return (
             <div className="Start_btn_cnt">
-                <button className="Start_btn" type="button">START !</button>
+                <Link className="Start_btn" to='/quiz'>START !</Link>
             </div>
         )
     }
