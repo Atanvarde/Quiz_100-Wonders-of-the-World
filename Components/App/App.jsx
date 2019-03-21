@@ -21,7 +21,7 @@ class App extends React.Component {
                 <div>
                     <Route exact path='/' component={Start}/>
                     <Route exact path='/quiz' component={Quiz}/>
-                    <Route exact path='/end' component={End}/>
+                    <Route exact path='/end/:percentage' component={End}/>
                 </div>
             </HashRouter>
         )
