@@ -9,10 +9,10 @@ class End extends React.Component {
         let scorePercentage = this.props.match.params.percentage;
 
         return (
-            <div>
-                <h1>Congratulations !</h1>
-                <h2>You scored {scorePercentage} %</h2>
-                <Link className="tryAgain_btn" to='/quiz'>Try again !</Link>
+            <div className="score_cnt">
+                <h1 className="end_header">Congratulations !</h1>
+                <h2 className="score_header">You scored {scorePercentage} %</h2>
+                <Link className="tryAgain_btn" to='/quiz'>TRY AGAIN !</Link>
             </div>
         )
     }

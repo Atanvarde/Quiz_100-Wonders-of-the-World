@@ -1,13 +1,19 @@
-.tryagain_btn_cnt {
+.score_cnt {
+  margin-top: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+  justify-content: space-between;
   border: none;
 
-  .tryagain_btn {
+  .tryAgain_btn {
+    padding: 2vw;
+    text-align: center;
+    text-decoration: none;
     background-color:  #551000;
-    width: 15vw;
-    height: 5vw;
+    width: 23vw;
+    height: 8vw;
     color: #FFBAAA;
     font-weight: bold;
     font-size: 2.5vw;
@@ -20,7 +26,19 @@
     cursor: pointer;
     outline:0;
   }
-  .tryagain_btn:hover {
+  .tryAgain_btn:hover {
     border-color: #551000;
   }
+}
+
+h1.end_header{
+  padding: 1vw;
+  margin-bottom: 1vw;
+  font-size: 5vw;
+}
+
+h2.score_header {
+  padding: 1vw;
+  margin-bottom: 3vw;
+  font-size: 4vw;
 }

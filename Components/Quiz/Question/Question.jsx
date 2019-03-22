@@ -12,7 +12,7 @@ class Question extends React.Component {
             question: null,
             counter: 1,
             score: 0,
-            limit: 5,
+            limit: 10,
             answer: 0,
         }
     }

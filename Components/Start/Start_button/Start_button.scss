@@ -3,14 +3,18 @@
   flex-direction: column;
   align-items: center;
   border: none;
+  margin-top:5vw;
 
   .Start_btn {
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
     background-color:  #551000;
     width: 15vw;
     height: 5vw;
     color: #FFBAAA;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 2vw;
     border-radius: 3px;
     border:5px solid #FFBAAA;
     transition-property:all;

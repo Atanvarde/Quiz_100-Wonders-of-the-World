@@ -42,8 +42,8 @@ img{
 
 
 .question_container {
-  margin-top: 2%;
-  margin-bottom: 1.5%;
+  margin-top: 4vw;
+  margin-bottom: 1vw;
 }
 
 .main_container {
@@ -58,4 +58,8 @@ img{
   flex-direction: column;
   justify-content: space-between;
   margin-top:1%;
+}
+
+span {
+  font-size: 2vw;
 }
