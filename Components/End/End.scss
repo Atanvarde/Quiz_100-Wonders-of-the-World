@@ -8,23 +8,23 @@
   border: none;
 
   .tryAgain_btn {
-    padding: 2vw;
+    padding: 1.6vw;
     text-align: center;
     text-decoration: none;
-    background-color:  #551000;
-    width: 23vw;
-    height: 8vw;
+    background-color: #551000;
+    width: 16vw;
+    height: 6vw;
     color: #FFBAAA;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     border-radius: 3px;
-    border:5px solid #FFBAAA;
-    transition-property:all;
-    transition-duration:.5s;
+    border: 5px solid #FFBAAA;
+    transition-property: all;
+    transition-duration: .5s;
     transition-timing-function: ease;
     transition-delay: 0s;
     cursor: pointer;
-    outline:0;
+    outline: 0;
   }
   .tryAgain_btn:hover {
     border-color: #551000;
@@ -34,11 +34,11 @@
 h1.end_header{
   padding: 1vw;
   margin-bottom: 1vw;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 h2.score_header {
   padding: 1vw;
   margin-bottom: 3vw;
-  font-size: 4vw;
+  font-size: 3vw;
 }
