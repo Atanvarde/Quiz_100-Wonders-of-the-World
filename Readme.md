@@ -29,7 +29,7 @@ The game was written with usage of:
 
 In order to start a game in command line enter: ```./node_modules/.bin/webpack-dev-server --hot```
 
-Open link https://localhost:3000/#/ to start the quiz in the browser.
+Open link http://localhost:3001/#/ to start the quiz in the browser.
 
 
 ##### Status
