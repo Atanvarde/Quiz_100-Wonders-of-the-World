@@ -23,8 +23,21 @@ The game was written with usage of:
 - React Router
 - React Router Redirect
 - Sass
-- data fetched from API https://restcountries.eu/
+- data from fetched API https://restcountries.eu/
 
 ##### Getting started
 
+In order to start a game in command line enter: ```./node_modules/.bin/webpack-dev-server --hot```
+
+Open link https://localhost:3000/#/ to start the quiz in the browser.
+
+
 ##### Status
+
+The project is going to be developed. 
+I would like to add new features to it such as:
+ - after choosing correct answer it will turn into green colour
+ - after choosing wrong answer it will turn into red colour and the correct answer will show up at the same time in green colour
+ - possibility to check one's knowledge about flag's only from chosen continent/s
+ - possibility to check where is the country from correct answer situated on the world map
+ 
