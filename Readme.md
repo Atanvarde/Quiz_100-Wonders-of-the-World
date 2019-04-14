@@ -25,7 +25,17 @@ The game was written with usage of:
 - Sass
 - data from fetched API https://restcountries.eu/
 
-#### Getting started
+#### Getting started    
+
+In the project directory, you have to run:
+
+npm install
+
+This will install all the dependencies releated to project.
+
+npm start
+
+Runs the app in the development mode.
 
 In order to start a game in command line enter: ```./node_modules/.bin/webpack-dev-server --hot```
 

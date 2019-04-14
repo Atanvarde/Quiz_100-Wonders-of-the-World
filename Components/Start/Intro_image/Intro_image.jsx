@@ -6,7 +6,7 @@ class Intro_image extends React.Component {
     render() {
         return (
             <div className="quiz_intro_img_ctn">
-                <img className="quiz_intro_img" src={'Components/Start/Intro_image/images/map_of_flags.jpg'} />
+                <img className="quiz_intro_img" alt="world map with national flags images" src={'Components/Start/Intro_image/images/map_of_flags.jpg'} />
             </div>
         )
     }
